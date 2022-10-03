@@ -1,0 +1,4 @@
+insert into NOTAS(AVERAGE, CODE_COURSE, CODE_STUDENT) values (15.5, 1,1)
+insert into NOTAS(AVERAGE, CODE_COURSE, CODE_STUDENT) values (13.5, 1,2)
+
+select * from NOTAS;
