@@ -37,7 +37,7 @@ public class NotesController {
     @PostMapping(value = "/add",
             consumes = MediaType.APPLICATION_JSON_VALUE,
             produces = MediaType.APPLICATION_JSON_VALUE)
-    public void calcular(@RequestBody Notes request) {
+    public void addNewNotes(@RequestBody Notes request) {
         log.info("Add new Notes");
         service.addNotesByStudent(request).subscribe();
     }
